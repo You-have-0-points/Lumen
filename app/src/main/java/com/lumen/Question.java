@@ -23,13 +23,13 @@ public class Question {
     }
 
     public Question(String text, User author, SimpleDateFormat date, ArrayList<Answer> listOfAnswers, Answer bestAnswer,
-                    ArrayList<File> listOFiles, ArrayList<Tag> listOfTags, long likes) {
+                    ArrayList<File> listOfFiles, ArrayList<Tag> listOfTags, long likes) {
         this.text = text;
         this.author = author;
         this.date = date;
         this.listOfAnswers = listOfAnswers;
         this.bestAnswer = bestAnswer;
-        this.listOFiles = listOFiles;
+        this.listOfFiles = listOfFiles;
         this.listOfTags = listOfTags;
         this.likes = likes;
     }
@@ -93,7 +93,6 @@ public class Question {
 
     public void addFile(File file){
         listOfFiles.add(file);
-        //listOfFiles.add(0,file); // если все таки в начало
     }
     public void removeFile(File file){
         listOfFiles.remove(file);
@@ -103,14 +102,14 @@ public class Question {
         listOfAnswers.add(ans);
     }
     public void removeAnswer(Answer ans){
-        listOfAnswers.remove(ans);
+        listOfAnswers.remove(ans);                         //need to check
     }
 
     public void addTag(Tag tag){
         listOfTags.add(tag);
     }
     public void removeTag(Tag tag){
-        listOfTags.remove(tag);
+        listOfTags.remove(tag);                            //need to check
     }
 
     public void addLike(){
