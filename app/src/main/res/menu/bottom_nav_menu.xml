@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Главная"
+        android:id="@+id/nav_home" />
+    <item
+        android:title="Чаты"
+        android:id="@+id/nav_chats" />
+    <item
+        android:title="Избранные"
+        android:id="@+id/nav_favorites" />
+    <item
+        android:title="Профиль"
+        android:id="@+id/nav_profile" />
+
+</menu>
