@@ -8,7 +8,7 @@
         android:id="@+id/nav_chats" />
     <item
         android:title="Избранные"
-        android:id="@+id/nav_favorites" />
+        android:id="@+id/nav_favourites" />
     <item
         android:title="Профиль"
         android:id="@+id/nav_profile" />

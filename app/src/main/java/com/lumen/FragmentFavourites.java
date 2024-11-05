@@ -11,13 +11,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-public class HomeFragment extends Fragment {
-
+public class FragmentFavourites extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //return super.onCreateView(inflater, container, savedInstanceState);
-        return inflater.inflate(R.layout.fragment_home , container, false);
+        return inflater.inflate(R.layout.fragment_likes , container, false);
     }
 
     //ну так на будущее
