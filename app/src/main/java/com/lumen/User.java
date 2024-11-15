@@ -154,3 +154,4 @@ public class User {
         listOfArticles.remove(article);
     }
 }
+
