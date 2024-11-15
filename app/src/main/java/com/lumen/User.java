@@ -1,7 +1,7 @@
 package com.lumen;
 
 import java.util.ArrayList;
-/*
+
 public class User {
     private String name;
     private String surname;
@@ -154,4 +154,3 @@ public class User {
         listOfArticles.remove(article);
     }
 }
-*/
