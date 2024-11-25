@@ -9,7 +9,7 @@ class Article (
     private var text: String = "",
     private var date: DateFormat,
     private var ID: ULong,
-    private var likes: ULong,
+    private var likes: Long,
     private var listOfFiles: ArrayList<File>,
     private var listOfTags: ArrayList<Tag>
 ) {
@@ -54,11 +54,11 @@ class Article (
         this.ID = ID
     }
 
-    fun getLikes(): ULong {
+    fun getLikes(): Long {
         return likes
     }
 
-    fun setLikes(likes: ULong) {
+    fun setLikes(likes: Long) {
         this.likes = likes
     }
 
@@ -87,12 +87,12 @@ class Article (
     }
 
     fun addLike() {
-        likes += 1u
+        likes += 1
     }
 
     fun removeLike() {
-        if (likes > 0u) {
-            likes -= 1u
+        if (likes > 0) {
+            likes -= 1
         }
     }
 }
