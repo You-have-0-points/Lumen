@@ -1,7 +1,6 @@
 package com.lumen
 
 import android.text.format.DateFormat
-//необходимо импортировать класс User
 
 class Answer (
     private var text: String,
