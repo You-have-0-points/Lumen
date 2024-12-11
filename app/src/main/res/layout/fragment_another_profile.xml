@@ -41,12 +41,6 @@
                     android:layout_weight="1"
                     android:text="TextView" />
 
-                <ImageView
-                    android:id="@+id/button_settings"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/image_test" />
             </LinearLayout>
 
             <LinearLayout
@@ -140,7 +134,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:id="@+id/button_edit_profile"
+            android:id="@+id/button_subscribe"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
@@ -159,7 +153,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/button_add_article"
+            android:id="@+id/button_message"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
